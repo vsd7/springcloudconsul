@@ -1,15 +1,15 @@
-package com.vd.springcloudconsul;
+package com.vd.springcloudconsulservicedescovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-@SpringBootApplication
 @EnableDiscoveryClient
-public class SpringcloudconsulApplication {
+@SpringBootApplication
+public class SpringcloudconsulservicedescoveryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringcloudconsulApplication.class, args);
+		SpringApplication.run(SpringcloudconsulservicedescoveryApplication.class, args);
 	}
 
 }
